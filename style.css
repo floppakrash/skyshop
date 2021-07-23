@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+*{
+	font-family: 'Manrope', sans-serif;
+}
+
+body{
+	margin:0;
+	
+}
+header{
+	position: relative;
+	background-color:FFC0CB;
+    padding:30px;
+}
+
+header div{
+	display: flex;
+	justify-content: space-between;
+}
+header h1{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 70px;
+	
+	top: -10px;
+	left: -15px;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	color: 5BC2F5;
+}
+
+
+main{
+	padding:70px 140px;
+	
+
+}
+.block div{
+	text-align:center;
+	padding:20px 0;
+}
+.block img{
+	width:268px;
+}
+.block div a{
+	background-color:#C4C4C4;
+	padding:5px 65px;
+	text-decoration:none;
+	color:white;
+	font-size:28px;
+	border-radius:50px;
+}
+.block{
+	width:268px;
+}
+footer {
+	background-color:AFEEEE;
+	padding:100px
+}
+
+footer .btn a{
+	transition: background-color .5s linear;
+	color: black;
+}
+
+footer .btn:hover a{
+	background-color: #d6a9d6;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid > div{
+	
+	justify-self: center;
+	height: 510px;
+}
+
+.grid > div div{
+	align-self: bottom;
+}
+
+.buy-outer{
+	display: flex;
+	justify-content: center;
+}
+
+.buy{
+	display: flex;
+}
+
+.block-inner{
+	display: block;
+	margin-left: 150px;
+}
+
+.block-inner * {
+	margin-bottom: 30px;
+}
+
+.block-inner h3{
+	font-size: 34px;
+}
+
+.block-inner .caption{
+	font-size: 28px;
+}
+
+.block-inner .price{
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.block-inner button, form button{
+	transition: background .2s linear;
+	background-color: #7886FF;
+	color: white;
+	padding: 17px 26px;
+	border: none;
+	border-radius: 26px;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration:none;
+	color:white;
+}
+.block-inner button a, form button a{
+	text-decoration:none;
+	color:white;
+}
+.block-inner button:hover, form button:hover{
+	background-color: #3347ff;header-menu
+}
+.btn a{
+	background-color:#c4c4c4;
+	text-decoration:none;
+	color:white;
+	padding:20px;
+	border-radius:50px;
+	
+}
+
+.btn{
+	text-align:center;
+}
+
+form{
+     margin:20px 750px;
+	 color:#5BC2F5;
+}
+
+textarea{
+	margin-bottom: 20px;
+}
+
+.qwe-section{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.qwe img{
+	justify-self: center;
+	margin-bottom: 40px;
+}
+
+.center-form{
+	text-align: right;
+}
